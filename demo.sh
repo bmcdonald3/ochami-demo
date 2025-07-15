@@ -31,14 +31,14 @@ scp "${GAMORA_HOST}:${REMOTE_PDU_FILE_PATH}" "./${LOCAL_PDU_FILE}"
 read -p "Press [Enter] to continue..."
 
 echo "\n🚀 STEP 3: Loading PDU inventory into SMD..."
-cat "./${LOCAL_PDU_FILE}" | ./magellan send http://localhost:27779
+cat "./${LOCAL_PDU_FILE}" | magellan send http://localhost:27779
 curl -sS http://localhost:27779/hsm/v2/Inventory/RedfishEndpoints | jq '.RedfishEndpoints[] | .ID'
 read -p "Press [Enter] to continue..."
 curl -sS "http://localhost:27779/hsm/v2/Inventory/ComponentEndpoints" | jq '.ComponentEndpoints[] | .ID'
 read -p "Press [Enter] to continue..."
 
 echo "\n🚀 STEP 4: Collecting local BMC inventory..."
-./magellan collect "https://${BMC_IP}" --username "${BMC_USER}" --password "${BMC_PASS}" | ./magellan send http://localhost:27779
+magellan collect "https://${BMC_IP}" --username "${BMC_USER}" --password "${BMC_PASS}" | magellan send http://localhost:27779
 read -p "Press [Enter] to continue..."
 
 echo "\n🚀 STEP 5: Verifying that both BMCs and PDUs are in SMD..."
