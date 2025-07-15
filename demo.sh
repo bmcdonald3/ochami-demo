@@ -38,7 +38,7 @@ curl -sS "http://localhost:27779/hsm/v2/Inventory/ComponentEndpoints" | jq
 read -p "Press [Enter] to continue..."
 
 echo "\n🚀 STEP 4: Collecting local BMC inventory..."
-magellan collect "https://${BMC_IP}" --username "${BMC_USER}" --password "${BMC_PASS}" | magellan send http://localhost:27779
+magellan collect "https://${BMC_IP}" --username "${BMC_USER}" --password "${BMC_PASS}" -v | magellan send http://localhost:27779
 read -p "Press [Enter] to continue..."
 
 echo "\n🚀 STEP 5: Verifying that both BMCs and PDUs are in SMD..."
