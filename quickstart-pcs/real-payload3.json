@@ -1,0 +1,9 @@
+{
+    "ID": "x1000c1s7b2",
+    "Type": "NodeBMC",
+    "FQDN": "172.24.0.4",
+    "User": "root",
+    "Password": "initial0",
+    "Enabled": true,
+    "RediscoverOnUpdate": true
+}

@@ -1,0 +1,15 @@
+services:
+  rfemulator3:
+    hostname: x1000c0s0b3
+    container_name: x1000c0s0b3
+    image: ghcr.io/openchami/csm-rie:v1.6.7
+    environment:
+      - MOCKUPFOLDER=EX425
+      - MAC_SCHEMA=Mountain
+      - XNAME=x1000c0s0b3
+      - PORT=445
+    ports:
+      - 445:445
+    networks:
+      - internal
+      - jwt-internal

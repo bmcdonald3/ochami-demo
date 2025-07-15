@@ -1,0 +1,7 @@
+{
+    "ID": "x3000m0",
+    "Type": "CabinetPDUPowerConnector",
+    "FQDN": "x3000m0-rts:8083",
+    "Enabled": true,
+    "RediscoverOnUpdate": false
+}
