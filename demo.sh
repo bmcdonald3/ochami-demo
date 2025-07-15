@@ -20,9 +20,9 @@ bash run.sh
 echo "Services are up."
 
 docker exec -e VAULT_TOKEN=hms -e VAULT_ADDR=http://localhost:8200 vault sh -c 'vault kv put secret/hms-creds/x3000m0 username=admn password=admn'
-docker exec -e VAULT_TOKEN=hms -e VAULT_ADDR=http://localhost:8200 vault sh -c 'vault kv put secret/hms-creds/x1000c1s7b0 username=root password=root_password'
-docker exec -e VAULT_TOKEN=hms -e VAULT_ADDR=http://localhost:8200 vault sh -c 'vault kv put secret/hms-creds/x1000c1s7b1 username=root password=root_password'
-docker exec -e VAULT_TOKEN=hms -e VAULT_ADDR=http://localhost:8200 vault sh -c 'vault kv put secret/hms-creds/x1000c1s7b2 username=root password=root_password'
+docker exec -e VAULT_TOKEN=hms -e VAULT_ADDR=http://localhost:8200 vault sh -c 'vault kv put secret/hms-creds/x1000c1s7b0 username=root password=initial0'
+docker exec -e VAULT_TOKEN=hms -e VAULT_ADDR=http://localhost:8200 vault sh -c 'vault kv put secret/hms-creds/x1000c1s7b1 username=root password=initial0'
+docker exec -e VAULT_TOKEN=hms -e VAULT_ADDR=http://localhost:8200 vault sh -c 'vault kv put secret/hms-creds/x1000c1s7b2 username=root password=initial0'
 sleep 5
 read -p "Press [Enter] to continue..."
 
