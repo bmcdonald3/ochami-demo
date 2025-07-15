@@ -15,6 +15,7 @@ PDU_XNAME="x3000m0"
 PDU_OUTLET_XNAME="x3000m0p0v1"
 
 echo "STEP 1: Starting OpenCHAMI services..."
+bash stop.sh
 bash run.sh
 echo "Services are up."
 
