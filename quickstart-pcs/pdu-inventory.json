@@ -1,0 +1,518 @@
+[
+  {
+    "Enabled": true,
+    "FQDN": "x3000m0",
+    "Hostname": "x3000m0",
+    "ID": "x3000m0",
+    "PDUInventory": {
+      "Outlets": [
+        {
+          "id_suffix": "p0v1",
+          "name": "Master_Outlet_1",
+          "original_id": "AA1",
+          "socket_type": "C13",
+          "state": "On"
+        },
+        {
+          "id_suffix": "p0v2",
+          "name": "Master_Outlet_2",
+          "original_id": "AA2",
+          "socket_type": "C13",
+          "state": "On"
+        },
+        {
+          "id_suffix": "p0v3",
+          "name": "Master_Outlet_3",
+          "original_id": "AA3",
+          "socket_type": "C13",
+          "state": "On"
+        },
+        {
+          "id_suffix": "p0v4",
+          "name": "Master_Outlet_4",
+          "original_id": "AA4",
+          "socket_type": "C13",
+          "state": "On"
+        },
+        {
+          "id_suffix": "p0v5",
+          "name": "Master_Outlet_5",
+          "original_id": "AA5",
+          "socket_type": "C13",
+          "state": "On"
+        },
+        {
+          "id_suffix": "p0v6",
+          "name": "Master_Outlet_6",
+          "original_id": "AA6",
+          "socket_type": "C13",
+          "state": "On"
+        },
+        {
+          "id_suffix": "p0v7",
+          "name": "Master_Outlet_7",
+          "original_id": "AA7",
+          "socket_type": "C13",
+          "state": "On"
+        },
+        {
+          "id_suffix": "p0v8",
+          "name": "Master_Outlet_8",
+          "original_id": "AA8",
+          "socket_type": "C13",
+          "state": "On"
+        },
+        {
+          "id_suffix": "p0v9",
+          "name": "Master_Outlet_9",
+          "original_id": "AA9",
+          "socket_type": "C13",
+          "state": "On"
+        },
+        {
+          "id_suffix": "p0v10",
+          "name": "Master_Outlet_10",
+          "original_id": "AA10",
+          "socket_type": "C13",
+          "state": "On"
+        },
+        {
+          "id_suffix": "p0v11",
+          "name": "Master_Outlet_11",
+          "original_id": "AA11",
+          "socket_type": "C13",
+          "state": "On"
+        },
+        {
+          "id_suffix": "p0v12",
+          "name": "Master_Outlet_12",
+          "original_id": "AA12",
+          "socket_type": "C13",
+          "state": "On"
+        },
+        {
+          "id_suffix": "p0v13",
+          "name": "Master_Outlet_13",
+          "original_id": "AA13",
+          "socket_type": "Cx",
+          "state": "On"
+        },
+        {
+          "id_suffix": "p0v14",
+          "name": "Master_Outlet_14",
+          "original_id": "AA14",
+          "socket_type": "Cx",
+          "state": "On"
+        },
+        {
+          "id_suffix": "p0v15",
+          "name": "Master_Outlet_15",
+          "original_id": "AA15",
+          "socket_type": "Cx",
+          "state": "On"
+        },
+        {
+          "id_suffix": "p0v16",
+          "name": "Master_Outlet_16",
+          "original_id": "AA16",
+          "socket_type": "Cx",
+          "state": "On"
+        },
+        {
+          "id_suffix": "p0v17",
+          "name": "Master_Outlet_17",
+          "original_id": "AA17",
+          "socket_type": "Cx",
+          "state": "On"
+        },
+        {
+          "id_suffix": "p0v18",
+          "name": "Master_Outlet_18",
+          "original_id": "AA18",
+          "socket_type": "Cx",
+          "state": "On"
+        },
+        {
+          "id_suffix": "p0v19",
+          "name": "Master_Outlet_19",
+          "original_id": "AA19",
+          "socket_type": "C13",
+          "state": "On"
+        },
+        {
+          "id_suffix": "p0v20",
+          "name": "Master_Outlet_20",
+          "original_id": "AA20",
+          "socket_type": "C13",
+          "state": "On"
+        },
+        {
+          "id_suffix": "p0v21",
+          "name": "Master_Outlet_21",
+          "original_id": "AA21",
+          "socket_type": "C13",
+          "state": "On"
+        },
+        {
+          "id_suffix": "p0v22",
+          "name": "Master_Outlet_22",
+          "original_id": "AA22",
+          "socket_type": "C13",
+          "state": "On"
+        },
+        {
+          "id_suffix": "p0v23",
+          "name": "Master_Outlet_23",
+          "original_id": "AA23",
+          "socket_type": "C13",
+          "state": "On"
+        },
+        {
+          "id_suffix": "p0v24",
+          "name": "Master_Outlet_24",
+          "original_id": "AA24",
+          "socket_type": "C13",
+          "state": "On"
+        },
+        {
+          "id_suffix": "p0v25",
+          "name": "Master_Outlet_25",
+          "original_id": "AA25",
+          "socket_type": "C13",
+          "state": "On"
+        },
+        {
+          "id_suffix": "p0v26",
+          "name": "Master_Outlet_26",
+          "original_id": "AA26",
+          "socket_type": "C13",
+          "state": "On"
+        },
+        {
+          "id_suffix": "p0v27",
+          "name": "Master_Outlet_27",
+          "original_id": "AA27",
+          "socket_type": "C13",
+          "state": "On"
+        },
+        {
+          "id_suffix": "p0v28",
+          "name": "Master_Outlet_28",
+          "original_id": "AA28",
+          "socket_type": "C13",
+          "state": "On"
+        },
+        {
+          "id_suffix": "p0v29",
+          "name": "Master_Outlet_29",
+          "original_id": "AA29",
+          "socket_type": "C13",
+          "state": "On"
+        },
+        {
+          "id_suffix": "p0v30",
+          "name": "Master_Outlet_30",
+          "original_id": "AA30",
+          "socket_type": "C13",
+          "state": "On"
+        },
+        {
+          "id_suffix": "p0v31",
+          "name": "Master_Outlet_31",
+          "original_id": "AA31",
+          "socket_type": "Cx",
+          "state": "On"
+        },
+        {
+          "id_suffix": "p0v32",
+          "name": "Master_Outlet_32",
+          "original_id": "AA32",
+          "socket_type": "Cx",
+          "state": "On"
+        },
+        {
+          "id_suffix": "p0v33",
+          "name": "Master_Outlet_33",
+          "original_id": "AA33",
+          "socket_type": "Cx",
+          "state": "On"
+        },
+        {
+          "id_suffix": "p0v34",
+          "name": "Master_Outlet_34",
+          "original_id": "AA34",
+          "socket_type": "Cx",
+          "state": "On"
+        },
+        {
+          "id_suffix": "p0v35",
+          "name": "Master_Outlet_35",
+          "original_id": "AA35",
+          "socket_type": "Cx",
+          "state": "On"
+        },
+        {
+          "id_suffix": "p0v36",
+          "name": "Master_Outlet_36",
+          "original_id": "AA36",
+          "socket_type": "Cx",
+          "state": "On"
+        },
+        {
+          "id_suffix": "p1v1",
+          "name": "Link1_Outlet_1",
+          "original_id": "BA1",
+          "socket_type": "C13",
+          "state": "On"
+        },
+        {
+          "id_suffix": "p1v2",
+          "name": "Link1_Outlet_2",
+          "original_id": "BA2",
+          "socket_type": "C13",
+          "state": "On"
+        },
+        {
+          "id_suffix": "p1v3",
+          "name": "Link1_Outlet_3",
+          "original_id": "BA3",
+          "socket_type": "C13",
+          "state": "On"
+        },
+        {
+          "id_suffix": "p1v4",
+          "name": "Link1_Outlet_4",
+          "original_id": "BA4",
+          "socket_type": "C13",
+          "state": "On"
+        },
+        {
+          "id_suffix": "p1v5",
+          "name": "Link1_Outlet_5",
+          "original_id": "BA5",
+          "socket_type": "C13",
+          "state": "On"
+        },
+        {
+          "id_suffix": "p1v6",
+          "name": "Link1_Outlet_6",
+          "original_id": "BA6",
+          "socket_type": "C13",
+          "state": "On"
+        },
+        {
+          "id_suffix": "p1v7",
+          "name": "Link1_Outlet_7",
+          "original_id": "BA7",
+          "socket_type": "C13",
+          "state": "On"
+        },
+        {
+          "id_suffix": "p1v8",
+          "name": "Link1_Outlet_8",
+          "original_id": "BA8",
+          "socket_type": "C13",
+          "state": "On"
+        },
+        {
+          "id_suffix": "p1v9",
+          "name": "Link1_Outlet_9",
+          "original_id": "BA9",
+          "socket_type": "C13",
+          "state": "On"
+        },
+        {
+          "id_suffix": "p1v10",
+          "name": "Link1_Outlet_10",
+          "original_id": "BA10",
+          "socket_type": "C13",
+          "state": "On"
+        },
+        {
+          "id_suffix": "p1v11",
+          "name": "Link1_Outlet_11",
+          "original_id": "BA11",
+          "socket_type": "C13",
+          "state": "On"
+        },
+        {
+          "id_suffix": "p1v12",
+          "name": "Link1_Outlet_12",
+          "original_id": "BA12",
+          "socket_type": "C13",
+          "state": "On"
+        },
+        {
+          "id_suffix": "p1v13",
+          "name": "Link1_Outlet_13",
+          "original_id": "BA13",
+          "socket_type": "Cx",
+          "state": "On"
+        },
+        {
+          "id_suffix": "p1v14",
+          "name": "Link1_Outlet_14",
+          "original_id": "BA14",
+          "socket_type": "Cx",
+          "state": "On"
+        },
+        {
+          "id_suffix": "p1v15",
+          "name": "Link1_Outlet_15",
+          "original_id": "BA15",
+          "socket_type": "Cx",
+          "state": "On"
+        },
+        {
+          "id_suffix": "p1v16",
+          "name": "Link1_Outlet_16",
+          "original_id": "BA16",
+          "socket_type": "Cx",
+          "state": "On"
+        },
+        {
+          "id_suffix": "p1v17",
+          "name": "Link1_Outlet_17",
+          "original_id": "BA17",
+          "socket_type": "Cx",
+          "state": "On"
+        },
+        {
+          "id_suffix": "p1v18",
+          "name": "Link1_Outlet_18",
+          "original_id": "BA18",
+          "socket_type": "Cx",
+          "state": "On"
+        },
+        {
+          "id_suffix": "p1v19",
+          "name": "Link1_Outlet_19",
+          "original_id": "BA19",
+          "socket_type": "C13",
+          "state": "On"
+        },
+        {
+          "id_suffix": "p1v20",
+          "name": "Link1_Outlet_20",
+          "original_id": "BA20",
+          "socket_type": "C13",
+          "state": "On"
+        },
+        {
+          "id_suffix": "p1v21",
+          "name": "Link1_Outlet_21",
+          "original_id": "BA21",
+          "socket_type": "C13",
+          "state": "On"
+        },
+        {
+          "id_suffix": "p1v22",
+          "name": "Link1_Outlet_22",
+          "original_id": "BA22",
+          "socket_type": "C13",
+          "state": "On"
+        },
+        {
+          "id_suffix": "p1v23",
+          "name": "Link1_Outlet_23",
+          "original_id": "BA23",
+          "socket_type": "C13",
+          "state": "On"
+        },
+        {
+          "id_suffix": "p1v24",
+          "name": "Link1_Outlet_24",
+          "original_id": "BA24",
+          "socket_type": "C13",
+          "state": "On"
+        },
+        {
+          "id_suffix": "p1v25",
+          "name": "Link1_Outlet_25",
+          "original_id": "BA25",
+          "socket_type": "C13",
+          "state": "On"
+        },
+        {
+          "id_suffix": "p1v26",
+          "name": "Link1_Outlet_26",
+          "original_id": "BA26",
+          "socket_type": "C13",
+          "state": "On"
+        },
+        {
+          "id_suffix": "p1v27",
+          "name": "Link1_Outlet_27",
+          "original_id": "BA27",
+          "socket_type": "C13",
+          "state": "On"
+        },
+        {
+          "id_suffix": "p1v28",
+          "name": "Link1_Outlet_28",
+          "original_id": "BA28",
+          "socket_type": "C13",
+          "state": "On"
+        },
+        {
+          "id_suffix": "p1v29",
+          "name": "Link1_Outlet_29",
+          "original_id": "BA29",
+          "socket_type": "C13",
+          "state": "On"
+        },
+        {
+          "id_suffix": "p1v30",
+          "name": "Link1_Outlet_30",
+          "original_id": "BA30",
+          "socket_type": "C13",
+          "state": "On"
+        },
+        {
+          "id_suffix": "p1v31",
+          "name": "Link1_Outlet_31",
+          "original_id": "BA31",
+          "socket_type": "Cx",
+          "state": "On"
+        },
+        {
+          "id_suffix": "p1v32",
+          "name": "Link1_Outlet_32",
+          "original_id": "BA32",
+          "socket_type": "Cx",
+          "state": "On"
+        },
+        {
+          "id_suffix": "p1v33",
+          "name": "Link1_Outlet_33",
+          "original_id": "BA33",
+          "socket_type": "Cx",
+          "state": "On"
+        },
+        {
+          "id_suffix": "p1v34",
+          "name": "Link1_Outlet_34",
+          "original_id": "BA34",
+          "socket_type": "Cx",
+          "state": "On"
+        },
+        {
+          "id_suffix": "p1v35",
+          "name": "Link1_Outlet_35",
+          "original_id": "BA35",
+          "socket_type": "Cx",
+          "state": "On"
+        },
+        {
+          "id_suffix": "p1v36",
+          "name": "Link1_Outlet_36",
+          "original_id": "BA36",
+          "socket_type": "Cx",
+          "state": "On"
+        }
+      ]
+    },
+    "RediscoverOnUpdate": false,
+    "Type": "Node"
+  }
+]

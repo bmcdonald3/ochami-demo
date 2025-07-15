@@ -1,6 +1,6 @@
 services:
   pcs:
-    image: ghcr.io/openchami/pcs:v2.7.0-amd64
+    image: ghcr.io/openchami/pcs:v2.7.0
     container_name: pcs
     restart: always
     network_mode: host

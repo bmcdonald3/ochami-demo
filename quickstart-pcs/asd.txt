@@ -1,0 +1,1732 @@
+{
+  "ComponentEndpoints": [
+    {
+      "ID": "x3000m0p0v1",
+      "Type": "CabinetPDUPowerConnector",
+      "RedfishType": "Outlet",
+      "RedfishSubtype": "C13",
+      "OdataID": "/jaws/monitor/outlets/AA1",
+      "RedfishEndpointID": "x3000m0",
+      "Enabled": true,
+      "RedfishEndpointFQDN": "x3000m0",
+      "RedfishURL": "x3000m0/jaws/monitor/outlets/AA1",
+      "ComponentEndpointType": "ComponentEndpointOutlet",
+      "RedfishOutletInfo": {
+        "Name": "Master_Outlet_1",
+        "Actions": {
+          "#Outlet.PowerControl": {
+            "PowerState@Redfish.AllowableValues": [
+              "On",
+              "Off"
+            ],
+            "target": "/jaws/control/outlets/AA1"
+          }
+        }
+      }
+    },
+    {
+      "ID": "x3000m0p0v2",
+      "Type": "CabinetPDUPowerConnector",
+      "RedfishType": "Outlet",
+      "RedfishSubtype": "C13",
+      "OdataID": "/jaws/monitor/outlets/AA2",
+      "RedfishEndpointID": "x3000m0",
+      "Enabled": true,
+      "RedfishEndpointFQDN": "x3000m0",
+      "RedfishURL": "x3000m0/jaws/monitor/outlets/AA2",
+      "ComponentEndpointType": "ComponentEndpointOutlet",
+      "RedfishOutletInfo": {
+        "Name": "Master_Outlet_2",
+        "Actions": {
+          "#Outlet.PowerControl": {
+            "PowerState@Redfish.AllowableValues": [
+              "On",
+              "Off"
+            ],
+            "target": "/jaws/control/outlets/AA2"
+          }
+        }
+      }
+    },
+    {
+      "ID": "x3000m0p0v3",
+      "Type": "CabinetPDUPowerConnector",
+      "RedfishType": "Outlet",
+      "RedfishSubtype": "C13",
+      "OdataID": "/jaws/monitor/outlets/AA3",
+      "RedfishEndpointID": "x3000m0",
+      "Enabled": true,
+      "RedfishEndpointFQDN": "x3000m0",
+      "RedfishURL": "x3000m0/jaws/monitor/outlets/AA3",
+      "ComponentEndpointType": "ComponentEndpointOutlet",
+      "RedfishOutletInfo": {
+        "Name": "Master_Outlet_3",
+        "Actions": {
+          "#Outlet.PowerControl": {
+            "PowerState@Redfish.AllowableValues": [
+              "On",
+              "Off"
+            ],
+            "target": "/jaws/control/outlets/AA3"
+          }
+        }
+      }
+    },
+    {
+      "ID": "x3000m0p0v4",
+      "Type": "CabinetPDUPowerConnector",
+      "RedfishType": "Outlet",
+      "RedfishSubtype": "C13",
+      "OdataID": "/jaws/monitor/outlets/AA4",
+      "RedfishEndpointID": "x3000m0",
+      "Enabled": true,
+      "RedfishEndpointFQDN": "x3000m0",
+      "RedfishURL": "x3000m0/jaws/monitor/outlets/AA4",
+      "ComponentEndpointType": "ComponentEndpointOutlet",
+      "RedfishOutletInfo": {
+        "Name": "Master_Outlet_4",
+        "Actions": {
+          "#Outlet.PowerControl": {
+            "PowerState@Redfish.AllowableValues": [
+              "On",
+              "Off"
+            ],
+            "target": "/jaws/control/outlets/AA4"
+          }
+        }
+      }
+    },
+    {
+      "ID": "x3000m0p0v5",
+      "Type": "CabinetPDUPowerConnector",
+      "RedfishType": "Outlet",
+      "RedfishSubtype": "C13",
+      "OdataID": "/jaws/monitor/outlets/AA5",
+      "RedfishEndpointID": "x3000m0",
+      "Enabled": true,
+      "RedfishEndpointFQDN": "x3000m0",
+      "RedfishURL": "x3000m0/jaws/monitor/outlets/AA5",
+      "ComponentEndpointType": "ComponentEndpointOutlet",
+      "RedfishOutletInfo": {
+        "Name": "Master_Outlet_5",
+        "Actions": {
+          "#Outlet.PowerControl": {
+            "PowerState@Redfish.AllowableValues": [
+              "On",
+              "Off"
+            ],
+            "target": "/jaws/control/outlets/AA5"
+          }
+        }
+      }
+    },
+    {
+      "ID": "x3000m0p0v6",
+      "Type": "CabinetPDUPowerConnector",
+      "RedfishType": "Outlet",
+      "RedfishSubtype": "C13",
+      "OdataID": "/jaws/monitor/outlets/AA6",
+      "RedfishEndpointID": "x3000m0",
+      "Enabled": true,
+      "RedfishEndpointFQDN": "x3000m0",
+      "RedfishURL": "x3000m0/jaws/monitor/outlets/AA6",
+      "ComponentEndpointType": "ComponentEndpointOutlet",
+      "RedfishOutletInfo": {
+        "Name": "Master_Outlet_6",
+        "Actions": {
+          "#Outlet.PowerControl": {
+            "PowerState@Redfish.AllowableValues": [
+              "On",
+              "Off"
+            ],
+            "target": "/jaws/control/outlets/AA6"
+          }
+        }
+      }
+    },
+    {
+      "ID": "x3000m0p0v7",
+      "Type": "CabinetPDUPowerConnector",
+      "RedfishType": "Outlet",
+      "RedfishSubtype": "C13",
+      "OdataID": "/jaws/monitor/outlets/AA7",
+      "RedfishEndpointID": "x3000m0",
+      "Enabled": true,
+      "RedfishEndpointFQDN": "x3000m0",
+      "RedfishURL": "x3000m0/jaws/monitor/outlets/AA7",
+      "ComponentEndpointType": "ComponentEndpointOutlet",
+      "RedfishOutletInfo": {
+        "Name": "Master_Outlet_7",
+        "Actions": {
+          "#Outlet.PowerControl": {
+            "PowerState@Redfish.AllowableValues": [
+              "On",
+              "Off"
+            ],
+            "target": "/jaws/control/outlets/AA7"
+          }
+        }
+      }
+    },
+    {
+      "ID": "x3000m0p0v8",
+      "Type": "CabinetPDUPowerConnector",
+      "RedfishType": "Outlet",
+      "RedfishSubtype": "C13",
+      "OdataID": "/jaws/monitor/outlets/AA8",
+      "RedfishEndpointID": "x3000m0",
+      "Enabled": true,
+      "RedfishEndpointFQDN": "x3000m0",
+      "RedfishURL": "x3000m0/jaws/monitor/outlets/AA8",
+      "ComponentEndpointType": "ComponentEndpointOutlet",
+      "RedfishOutletInfo": {
+        "Name": "Master_Outlet_8",
+        "Actions": {
+          "#Outlet.PowerControl": {
+            "PowerState@Redfish.AllowableValues": [
+              "On",
+              "Off"
+            ],
+            "target": "/jaws/control/outlets/AA8"
+          }
+        }
+      }
+    },
+    {
+      "ID": "x3000m0p0v9",
+      "Type": "CabinetPDUPowerConnector",
+      "RedfishType": "Outlet",
+      "RedfishSubtype": "C13",
+      "OdataID": "/jaws/monitor/outlets/AA9",
+      "RedfishEndpointID": "x3000m0",
+      "Enabled": true,
+      "RedfishEndpointFQDN": "x3000m0",
+      "RedfishURL": "x3000m0/jaws/monitor/outlets/AA9",
+      "ComponentEndpointType": "ComponentEndpointOutlet",
+      "RedfishOutletInfo": {
+        "Name": "Master_Outlet_9",
+        "Actions": {
+          "#Outlet.PowerControl": {
+            "PowerState@Redfish.AllowableValues": [
+              "On",
+              "Off"
+            ],
+            "target": "/jaws/control/outlets/AA9"
+          }
+        }
+      }
+    },
+    {
+      "ID": "x3000m0p0v10",
+      "Type": "CabinetPDUPowerConnector",
+      "RedfishType": "Outlet",
+      "RedfishSubtype": "C13",
+      "OdataID": "/jaws/monitor/outlets/AA10",
+      "RedfishEndpointID": "x3000m0",
+      "Enabled": true,
+      "RedfishEndpointFQDN": "x3000m0",
+      "RedfishURL": "x3000m0/jaws/monitor/outlets/AA10",
+      "ComponentEndpointType": "ComponentEndpointOutlet",
+      "RedfishOutletInfo": {
+        "Name": "Master_Outlet_10",
+        "Actions": {
+          "#Outlet.PowerControl": {
+            "PowerState@Redfish.AllowableValues": [
+              "On",
+              "Off"
+            ],
+            "target": "/jaws/control/outlets/AA10"
+          }
+        }
+      }
+    },
+    {
+      "ID": "x3000m0p0v11",
+      "Type": "CabinetPDUPowerConnector",
+      "RedfishType": "Outlet",
+      "RedfishSubtype": "C13",
+      "OdataID": "/jaws/monitor/outlets/AA11",
+      "RedfishEndpointID": "x3000m0",
+      "Enabled": true,
+      "RedfishEndpointFQDN": "x3000m0",
+      "RedfishURL": "x3000m0/jaws/monitor/outlets/AA11",
+      "ComponentEndpointType": "ComponentEndpointOutlet",
+      "RedfishOutletInfo": {
+        "Name": "Master_Outlet_11",
+        "Actions": {
+          "#Outlet.PowerControl": {
+            "PowerState@Redfish.AllowableValues": [
+              "On",
+              "Off"
+            ],
+            "target": "/jaws/control/outlets/AA11"
+          }
+        }
+      }
+    },
+    {
+      "ID": "x3000m0p0v12",
+      "Type": "CabinetPDUPowerConnector",
+      "RedfishType": "Outlet",
+      "RedfishSubtype": "C13",
+      "OdataID": "/jaws/monitor/outlets/AA12",
+      "RedfishEndpointID": "x3000m0",
+      "Enabled": true,
+      "RedfishEndpointFQDN": "x3000m0",
+      "RedfishURL": "x3000m0/jaws/monitor/outlets/AA12",
+      "ComponentEndpointType": "ComponentEndpointOutlet",
+      "RedfishOutletInfo": {
+        "Name": "Master_Outlet_12",
+        "Actions": {
+          "#Outlet.PowerControl": {
+            "PowerState@Redfish.AllowableValues": [
+              "On",
+              "Off"
+            ],
+            "target": "/jaws/control/outlets/AA12"
+          }
+        }
+      }
+    },
+    {
+      "ID": "x3000m0p0v13",
+      "Type": "CabinetPDUPowerConnector",
+      "RedfishType": "Outlet",
+      "RedfishSubtype": "Cx",
+      "OdataID": "/jaws/monitor/outlets/AA13",
+      "RedfishEndpointID": "x3000m0",
+      "Enabled": true,
+      "RedfishEndpointFQDN": "x3000m0",
+      "RedfishURL": "x3000m0/jaws/monitor/outlets/AA13",
+      "ComponentEndpointType": "ComponentEndpointOutlet",
+      "RedfishOutletInfo": {
+        "Name": "Master_Outlet_13",
+        "Actions": {
+          "#Outlet.PowerControl": {
+            "PowerState@Redfish.AllowableValues": [
+              "On",
+              "Off"
+            ],
+            "target": "/jaws/control/outlets/AA13"
+          }
+        }
+      }
+    },
+    {
+      "ID": "x3000m0p0v14",
+      "Type": "CabinetPDUPowerConnector",
+      "RedfishType": "Outlet",
+      "RedfishSubtype": "Cx",
+      "OdataID": "/jaws/monitor/outlets/AA14",
+      "RedfishEndpointID": "x3000m0",
+      "Enabled": true,
+      "RedfishEndpointFQDN": "x3000m0",
+      "RedfishURL": "x3000m0/jaws/monitor/outlets/AA14",
+      "ComponentEndpointType": "ComponentEndpointOutlet",
+      "RedfishOutletInfo": {
+        "Name": "Master_Outlet_14",
+        "Actions": {
+          "#Outlet.PowerControl": {
+            "PowerState@Redfish.AllowableValues": [
+              "On",
+              "Off"
+            ],
+            "target": "/jaws/control/outlets/AA14"
+          }
+        }
+      }
+    },
+    {
+      "ID": "x3000m0p0v15",
+      "Type": "CabinetPDUPowerConnector",
+      "RedfishType": "Outlet",
+      "RedfishSubtype": "Cx",
+      "OdataID": "/jaws/monitor/outlets/AA15",
+      "RedfishEndpointID": "x3000m0",
+      "Enabled": true,
+      "RedfishEndpointFQDN": "x3000m0",
+      "RedfishURL": "x3000m0/jaws/monitor/outlets/AA15",
+      "ComponentEndpointType": "ComponentEndpointOutlet",
+      "RedfishOutletInfo": {
+        "Name": "Master_Outlet_15",
+        "Actions": {
+          "#Outlet.PowerControl": {
+            "PowerState@Redfish.AllowableValues": [
+              "On",
+              "Off"
+            ],
+            "target": "/jaws/control/outlets/AA15"
+          }
+        }
+      }
+    },
+    {
+      "ID": "x3000m0p0v16",
+      "Type": "CabinetPDUPowerConnector",
+      "RedfishType": "Outlet",
+      "RedfishSubtype": "Cx",
+      "OdataID": "/jaws/monitor/outlets/AA16",
+      "RedfishEndpointID": "x3000m0",
+      "Enabled": true,
+      "RedfishEndpointFQDN": "x3000m0",
+      "RedfishURL": "x3000m0/jaws/monitor/outlets/AA16",
+      "ComponentEndpointType": "ComponentEndpointOutlet",
+      "RedfishOutletInfo": {
+        "Name": "Master_Outlet_16",
+        "Actions": {
+          "#Outlet.PowerControl": {
+            "PowerState@Redfish.AllowableValues": [
+              "On",
+              "Off"
+            ],
+            "target": "/jaws/control/outlets/AA16"
+          }
+        }
+      }
+    },
+    {
+      "ID": "x3000m0p0v17",
+      "Type": "CabinetPDUPowerConnector",
+      "RedfishType": "Outlet",
+      "RedfishSubtype": "Cx",
+      "OdataID": "/jaws/monitor/outlets/AA17",
+      "RedfishEndpointID": "x3000m0",
+      "Enabled": true,
+      "RedfishEndpointFQDN": "x3000m0",
+      "RedfishURL": "x3000m0/jaws/monitor/outlets/AA17",
+      "ComponentEndpointType": "ComponentEndpointOutlet",
+      "RedfishOutletInfo": {
+        "Name": "Master_Outlet_17",
+        "Actions": {
+          "#Outlet.PowerControl": {
+            "PowerState@Redfish.AllowableValues": [
+              "On",
+              "Off"
+            ],
+            "target": "/jaws/control/outlets/AA17"
+          }
+        }
+      }
+    },
+    {
+      "ID": "x3000m0p0v18",
+      "Type": "CabinetPDUPowerConnector",
+      "RedfishType": "Outlet",
+      "RedfishSubtype": "Cx",
+      "OdataID": "/jaws/monitor/outlets/AA18",
+      "RedfishEndpointID": "x3000m0",
+      "Enabled": true,
+      "RedfishEndpointFQDN": "x3000m0",
+      "RedfishURL": "x3000m0/jaws/monitor/outlets/AA18",
+      "ComponentEndpointType": "ComponentEndpointOutlet",
+      "RedfishOutletInfo": {
+        "Name": "Master_Outlet_18",
+        "Actions": {
+          "#Outlet.PowerControl": {
+            "PowerState@Redfish.AllowableValues": [
+              "On",
+              "Off"
+            ],
+            "target": "/jaws/control/outlets/AA18"
+          }
+        }
+      }
+    },
+    {
+      "ID": "x3000m0p0v19",
+      "Type": "CabinetPDUPowerConnector",
+      "RedfishType": "Outlet",
+      "RedfishSubtype": "C13",
+      "OdataID": "/jaws/monitor/outlets/AA19",
+      "RedfishEndpointID": "x3000m0",
+      "Enabled": true,
+      "RedfishEndpointFQDN": "x3000m0",
+      "RedfishURL": "x3000m0/jaws/monitor/outlets/AA19",
+      "ComponentEndpointType": "ComponentEndpointOutlet",
+      "RedfishOutletInfo": {
+        "Name": "Master_Outlet_19",
+        "Actions": {
+          "#Outlet.PowerControl": {
+            "PowerState@Redfish.AllowableValues": [
+              "On",
+              "Off"
+            ],
+            "target": "/jaws/control/outlets/AA19"
+          }
+        }
+      }
+    },
+    {
+      "ID": "x3000m0p0v20",
+      "Type": "CabinetPDUPowerConnector",
+      "RedfishType": "Outlet",
+      "RedfishSubtype": "C13",
+      "OdataID": "/jaws/monitor/outlets/AA20",
+      "RedfishEndpointID": "x3000m0",
+      "Enabled": true,
+      "RedfishEndpointFQDN": "x3000m0",
+      "RedfishURL": "x3000m0/jaws/monitor/outlets/AA20",
+      "ComponentEndpointType": "ComponentEndpointOutlet",
+      "RedfishOutletInfo": {
+        "Name": "Master_Outlet_20",
+        "Actions": {
+          "#Outlet.PowerControl": {
+            "PowerState@Redfish.AllowableValues": [
+              "On",
+              "Off"
+            ],
+            "target": "/jaws/control/outlets/AA20"
+          }
+        }
+      }
+    },
+    {
+      "ID": "x3000m0p0v21",
+      "Type": "CabinetPDUPowerConnector",
+      "RedfishType": "Outlet",
+      "RedfishSubtype": "C13",
+      "OdataID": "/jaws/monitor/outlets/AA21",
+      "RedfishEndpointID": "x3000m0",
+      "Enabled": true,
+      "RedfishEndpointFQDN": "x3000m0",
+      "RedfishURL": "x3000m0/jaws/monitor/outlets/AA21",
+      "ComponentEndpointType": "ComponentEndpointOutlet",
+      "RedfishOutletInfo": {
+        "Name": "Master_Outlet_21",
+        "Actions": {
+          "#Outlet.PowerControl": {
+            "PowerState@Redfish.AllowableValues": [
+              "On",
+              "Off"
+            ],
+            "target": "/jaws/control/outlets/AA21"
+          }
+        }
+      }
+    },
+    {
+      "ID": "x3000m0p0v22",
+      "Type": "CabinetPDUPowerConnector",
+      "RedfishType": "Outlet",
+      "RedfishSubtype": "C13",
+      "OdataID": "/jaws/monitor/outlets/AA22",
+      "RedfishEndpointID": "x3000m0",
+      "Enabled": true,
+      "RedfishEndpointFQDN": "x3000m0",
+      "RedfishURL": "x3000m0/jaws/monitor/outlets/AA22",
+      "ComponentEndpointType": "ComponentEndpointOutlet",
+      "RedfishOutletInfo": {
+        "Name": "Master_Outlet_22",
+        "Actions": {
+          "#Outlet.PowerControl": {
+            "PowerState@Redfish.AllowableValues": [
+              "On",
+              "Off"
+            ],
+            "target": "/jaws/control/outlets/AA22"
+          }
+        }
+      }
+    },
+    {
+      "ID": "x3000m0p0v23",
+      "Type": "CabinetPDUPowerConnector",
+      "RedfishType": "Outlet",
+      "RedfishSubtype": "C13",
+      "OdataID": "/jaws/monitor/outlets/AA23",
+      "RedfishEndpointID": "x3000m0",
+      "Enabled": true,
+      "RedfishEndpointFQDN": "x3000m0",
+      "RedfishURL": "x3000m0/jaws/monitor/outlets/AA23",
+      "ComponentEndpointType": "ComponentEndpointOutlet",
+      "RedfishOutletInfo": {
+        "Name": "Master_Outlet_23",
+        "Actions": {
+          "#Outlet.PowerControl": {
+            "PowerState@Redfish.AllowableValues": [
+              "On",
+              "Off"
+            ],
+            "target": "/jaws/control/outlets/AA23"
+          }
+        }
+      }
+    },
+    {
+      "ID": "x3000m0p0v24",
+      "Type": "CabinetPDUPowerConnector",
+      "RedfishType": "Outlet",
+      "RedfishSubtype": "C13",
+      "OdataID": "/jaws/monitor/outlets/AA24",
+      "RedfishEndpointID": "x3000m0",
+      "Enabled": true,
+      "RedfishEndpointFQDN": "x3000m0",
+      "RedfishURL": "x3000m0/jaws/monitor/outlets/AA24",
+      "ComponentEndpointType": "ComponentEndpointOutlet",
+      "RedfishOutletInfo": {
+        "Name": "Master_Outlet_24",
+        "Actions": {
+          "#Outlet.PowerControl": {
+            "PowerState@Redfish.AllowableValues": [
+              "On",
+              "Off"
+            ],
+            "target": "/jaws/control/outlets/AA24"
+          }
+        }
+      }
+    },
+    {
+      "ID": "x3000m0p0v25",
+      "Type": "CabinetPDUPowerConnector",
+      "RedfishType": "Outlet",
+      "RedfishSubtype": "C13",
+      "OdataID": "/jaws/monitor/outlets/AA25",
+      "RedfishEndpointID": "x3000m0",
+      "Enabled": true,
+      "RedfishEndpointFQDN": "x3000m0",
+      "RedfishURL": "x3000m0/jaws/monitor/outlets/AA25",
+      "ComponentEndpointType": "ComponentEndpointOutlet",
+      "RedfishOutletInfo": {
+        "Name": "Master_Outlet_25",
+        "Actions": {
+          "#Outlet.PowerControl": {
+            "PowerState@Redfish.AllowableValues": [
+              "On",
+              "Off"
+            ],
+            "target": "/jaws/control/outlets/AA25"
+          }
+        }
+      }
+    },
+    {
+      "ID": "x3000m0p0v26",
+      "Type": "CabinetPDUPowerConnector",
+      "RedfishType": "Outlet",
+      "RedfishSubtype": "C13",
+      "OdataID": "/jaws/monitor/outlets/AA26",
+      "RedfishEndpointID": "x3000m0",
+      "Enabled": true,
+      "RedfishEndpointFQDN": "x3000m0",
+      "RedfishURL": "x3000m0/jaws/monitor/outlets/AA26",
+      "ComponentEndpointType": "ComponentEndpointOutlet",
+      "RedfishOutletInfo": {
+        "Name": "Master_Outlet_26",
+        "Actions": {
+          "#Outlet.PowerControl": {
+            "PowerState@Redfish.AllowableValues": [
+              "On",
+              "Off"
+            ],
+            "target": "/jaws/control/outlets/AA26"
+          }
+        }
+      }
+    },
+    {
+      "ID": "x3000m0p0v27",
+      "Type": "CabinetPDUPowerConnector",
+      "RedfishType": "Outlet",
+      "RedfishSubtype": "C13",
+      "OdataID": "/jaws/monitor/outlets/AA27",
+      "RedfishEndpointID": "x3000m0",
+      "Enabled": true,
+      "RedfishEndpointFQDN": "x3000m0",
+      "RedfishURL": "x3000m0/jaws/monitor/outlets/AA27",
+      "ComponentEndpointType": "ComponentEndpointOutlet",
+      "RedfishOutletInfo": {
+        "Name": "Master_Outlet_27",
+        "Actions": {
+          "#Outlet.PowerControl": {
+            "PowerState@Redfish.AllowableValues": [
+              "On",
+              "Off"
+            ],
+            "target": "/jaws/control/outlets/AA27"
+          }
+        }
+      }
+    },
+    {
+      "ID": "x3000m0p0v28",
+      "Type": "CabinetPDUPowerConnector",
+      "RedfishType": "Outlet",
+      "RedfishSubtype": "C13",
+      "OdataID": "/jaws/monitor/outlets/AA28",
+      "RedfishEndpointID": "x3000m0",
+      "Enabled": true,
+      "RedfishEndpointFQDN": "x3000m0",
+      "RedfishURL": "x3000m0/jaws/monitor/outlets/AA28",
+      "ComponentEndpointType": "ComponentEndpointOutlet",
+      "RedfishOutletInfo": {
+        "Name": "Master_Outlet_28",
+        "Actions": {
+          "#Outlet.PowerControl": {
+            "PowerState@Redfish.AllowableValues": [
+              "On",
+              "Off"
+            ],
+            "target": "/jaws/control/outlets/AA28"
+          }
+        }
+      }
+    },
+    {
+      "ID": "x3000m0p0v29",
+      "Type": "CabinetPDUPowerConnector",
+      "RedfishType": "Outlet",
+      "RedfishSubtype": "C13",
+      "OdataID": "/jaws/monitor/outlets/AA29",
+      "RedfishEndpointID": "x3000m0",
+      "Enabled": true,
+      "RedfishEndpointFQDN": "x3000m0",
+      "RedfishURL": "x3000m0/jaws/monitor/outlets/AA29",
+      "ComponentEndpointType": "ComponentEndpointOutlet",
+      "RedfishOutletInfo": {
+        "Name": "Master_Outlet_29",
+        "Actions": {
+          "#Outlet.PowerControl": {
+            "PowerState@Redfish.AllowableValues": [
+              "On",
+              "Off"
+            ],
+            "target": "/jaws/control/outlets/AA29"
+          }
+        }
+      }
+    },
+    {
+      "ID": "x3000m0p0v30",
+      "Type": "CabinetPDUPowerConnector",
+      "RedfishType": "Outlet",
+      "RedfishSubtype": "C13",
+      "OdataID": "/jaws/monitor/outlets/AA30",
+      "RedfishEndpointID": "x3000m0",
+      "Enabled": true,
+      "RedfishEndpointFQDN": "x3000m0",
+      "RedfishURL": "x3000m0/jaws/monitor/outlets/AA30",
+      "ComponentEndpointType": "ComponentEndpointOutlet",
+      "RedfishOutletInfo": {
+        "Name": "Master_Outlet_30",
+        "Actions": {
+          "#Outlet.PowerControl": {
+            "PowerState@Redfish.AllowableValues": [
+              "On",
+              "Off"
+            ],
+            "target": "/jaws/control/outlets/AA30"
+          }
+        }
+      }
+    },
+    {
+      "ID": "x3000m0p0v31",
+      "Type": "CabinetPDUPowerConnector",
+      "RedfishType": "Outlet",
+      "RedfishSubtype": "Cx",
+      "OdataID": "/jaws/monitor/outlets/AA31",
+      "RedfishEndpointID": "x3000m0",
+      "Enabled": true,
+      "RedfishEndpointFQDN": "x3000m0",
+      "RedfishURL": "x3000m0/jaws/monitor/outlets/AA31",
+      "ComponentEndpointType": "ComponentEndpointOutlet",
+      "RedfishOutletInfo": {
+        "Name": "Master_Outlet_31",
+        "Actions": {
+          "#Outlet.PowerControl": {
+            "PowerState@Redfish.AllowableValues": [
+              "On",
+              "Off"
+            ],
+            "target": "/jaws/control/outlets/AA31"
+          }
+        }
+      }
+    },
+    {
+      "ID": "x3000m0p0v32",
+      "Type": "CabinetPDUPowerConnector",
+      "RedfishType": "Outlet",
+      "RedfishSubtype": "Cx",
+      "OdataID": "/jaws/monitor/outlets/AA32",
+      "RedfishEndpointID": "x3000m0",
+      "Enabled": true,
+      "RedfishEndpointFQDN": "x3000m0",
+      "RedfishURL": "x3000m0/jaws/monitor/outlets/AA32",
+      "ComponentEndpointType": "ComponentEndpointOutlet",
+      "RedfishOutletInfo": {
+        "Name": "Master_Outlet_32",
+        "Actions": {
+          "#Outlet.PowerControl": {
+            "PowerState@Redfish.AllowableValues": [
+              "On",
+              "Off"
+            ],
+            "target": "/jaws/control/outlets/AA32"
+          }
+        }
+      }
+    },
+    {
+      "ID": "x3000m0p0v33",
+      "Type": "CabinetPDUPowerConnector",
+      "RedfishType": "Outlet",
+      "RedfishSubtype": "Cx",
+      "OdataID": "/jaws/monitor/outlets/AA33",
+      "RedfishEndpointID": "x3000m0",
+      "Enabled": true,
+      "RedfishEndpointFQDN": "x3000m0",
+      "RedfishURL": "x3000m0/jaws/monitor/outlets/AA33",
+      "ComponentEndpointType": "ComponentEndpointOutlet",
+      "RedfishOutletInfo": {
+        "Name": "Master_Outlet_33",
+        "Actions": {
+          "#Outlet.PowerControl": {
+            "PowerState@Redfish.AllowableValues": [
+              "On",
+              "Off"
+            ],
+            "target": "/jaws/control/outlets/AA33"
+          }
+        }
+      }
+    },
+    {
+      "ID": "x3000m0p0v34",
+      "Type": "CabinetPDUPowerConnector",
+      "RedfishType": "Outlet",
+      "RedfishSubtype": "Cx",
+      "OdataID": "/jaws/monitor/outlets/AA34",
+      "RedfishEndpointID": "x3000m0",
+      "Enabled": true,
+      "RedfishEndpointFQDN": "x3000m0",
+      "RedfishURL": "x3000m0/jaws/monitor/outlets/AA34",
+      "ComponentEndpointType": "ComponentEndpointOutlet",
+      "RedfishOutletInfo": {
+        "Name": "Master_Outlet_34",
+        "Actions": {
+          "#Outlet.PowerControl": {
+            "PowerState@Redfish.AllowableValues": [
+              "On",
+              "Off"
+            ],
+            "target": "/jaws/control/outlets/AA34"
+          }
+        }
+      }
+    },
+    {
+      "ID": "x3000m0p0v35",
+      "Type": "CabinetPDUPowerConnector",
+      "RedfishType": "Outlet",
+      "RedfishSubtype": "Cx",
+      "OdataID": "/jaws/monitor/outlets/AA35",
+      "RedfishEndpointID": "x3000m0",
+      "Enabled": true,
+      "RedfishEndpointFQDN": "x3000m0",
+      "RedfishURL": "x3000m0/jaws/monitor/outlets/AA35",
+      "ComponentEndpointType": "ComponentEndpointOutlet",
+      "RedfishOutletInfo": {
+        "Name": "Master_Outlet_35",
+        "Actions": {
+          "#Outlet.PowerControl": {
+            "PowerState@Redfish.AllowableValues": [
+              "On",
+              "Off"
+            ],
+            "target": "/jaws/control/outlets/AA35"
+          }
+        }
+      }
+    },
+    {
+      "ID": "x3000m0p0v36",
+      "Type": "CabinetPDUPowerConnector",
+      "RedfishType": "Outlet",
+      "RedfishSubtype": "Cx",
+      "OdataID": "/jaws/monitor/outlets/AA36",
+      "RedfishEndpointID": "x3000m0",
+      "Enabled": true,
+      "RedfishEndpointFQDN": "x3000m0",
+      "RedfishURL": "x3000m0/jaws/monitor/outlets/AA36",
+      "ComponentEndpointType": "ComponentEndpointOutlet",
+      "RedfishOutletInfo": {
+        "Name": "Master_Outlet_36",
+        "Actions": {
+          "#Outlet.PowerControl": {
+            "PowerState@Redfish.AllowableValues": [
+              "On",
+              "Off"
+            ],
+            "target": "/jaws/control/outlets/AA36"
+          }
+        }
+      }
+    },
+    {
+      "ID": "x3000m0p1v1",
+      "Type": "CabinetPDUPowerConnector",
+      "RedfishType": "Outlet",
+      "RedfishSubtype": "C13",
+      "OdataID": "/jaws/monitor/outlets/BA1",
+      "RedfishEndpointID": "x3000m0",
+      "Enabled": true,
+      "RedfishEndpointFQDN": "x3000m0",
+      "RedfishURL": "x3000m0/jaws/monitor/outlets/BA1",
+      "ComponentEndpointType": "ComponentEndpointOutlet",
+      "RedfishOutletInfo": {
+        "Name": "Link1_Outlet_1",
+        "Actions": {
+          "#Outlet.PowerControl": {
+            "PowerState@Redfish.AllowableValues": [
+              "On",
+              "Off"
+            ],
+            "target": "/jaws/control/outlets/BA1"
+          }
+        }
+      }
+    },
+    {
+      "ID": "x3000m0p1v2",
+      "Type": "CabinetPDUPowerConnector",
+      "RedfishType": "Outlet",
+      "RedfishSubtype": "C13",
+      "OdataID": "/jaws/monitor/outlets/BA2",
+      "RedfishEndpointID": "x3000m0",
+      "Enabled": true,
+      "RedfishEndpointFQDN": "x3000m0",
+      "RedfishURL": "x3000m0/jaws/monitor/outlets/BA2",
+      "ComponentEndpointType": "ComponentEndpointOutlet",
+      "RedfishOutletInfo": {
+        "Name": "Link1_Outlet_2",
+        "Actions": {
+          "#Outlet.PowerControl": {
+            "PowerState@Redfish.AllowableValues": [
+              "On",
+              "Off"
+            ],
+            "target": "/jaws/control/outlets/BA2"
+          }
+        }
+      }
+    },
+    {
+      "ID": "x3000m0p1v3",
+      "Type": "CabinetPDUPowerConnector",
+      "RedfishType": "Outlet",
+      "RedfishSubtype": "C13",
+      "OdataID": "/jaws/monitor/outlets/BA3",
+      "RedfishEndpointID": "x3000m0",
+      "Enabled": true,
+      "RedfishEndpointFQDN": "x3000m0",
+      "RedfishURL": "x3000m0/jaws/monitor/outlets/BA3",
+      "ComponentEndpointType": "ComponentEndpointOutlet",
+      "RedfishOutletInfo": {
+        "Name": "Link1_Outlet_3",
+        "Actions": {
+          "#Outlet.PowerControl": {
+            "PowerState@Redfish.AllowableValues": [
+              "On",
+              "Off"
+            ],
+            "target": "/jaws/control/outlets/BA3"
+          }
+        }
+      }
+    },
+    {
+      "ID": "x3000m0p1v4",
+      "Type": "CabinetPDUPowerConnector",
+      "RedfishType": "Outlet",
+      "RedfishSubtype": "C13",
+      "OdataID": "/jaws/monitor/outlets/BA4",
+      "RedfishEndpointID": "x3000m0",
+      "Enabled": true,
+      "RedfishEndpointFQDN": "x3000m0",
+      "RedfishURL": "x3000m0/jaws/monitor/outlets/BA4",
+      "ComponentEndpointType": "ComponentEndpointOutlet",
+      "RedfishOutletInfo": {
+        "Name": "Link1_Outlet_4",
+        "Actions": {
+          "#Outlet.PowerControl": {
+            "PowerState@Redfish.AllowableValues": [
+              "On",
+              "Off"
+            ],
+            "target": "/jaws/control/outlets/BA4"
+          }
+        }
+      }
+    },
+    {
+      "ID": "x3000m0p1v5",
+      "Type": "CabinetPDUPowerConnector",
+      "RedfishType": "Outlet",
+      "RedfishSubtype": "C13",
+      "OdataID": "/jaws/monitor/outlets/BA5",
+      "RedfishEndpointID": "x3000m0",
+      "Enabled": true,
+      "RedfishEndpointFQDN": "x3000m0",
+      "RedfishURL": "x3000m0/jaws/monitor/outlets/BA5",
+      "ComponentEndpointType": "ComponentEndpointOutlet",
+      "RedfishOutletInfo": {
+        "Name": "Link1_Outlet_5",
+        "Actions": {
+          "#Outlet.PowerControl": {
+            "PowerState@Redfish.AllowableValues": [
+              "On",
+              "Off"
+            ],
+            "target": "/jaws/control/outlets/BA5"
+          }
+        }
+      }
+    },
+    {
+      "ID": "x3000m0p1v6",
+      "Type": "CabinetPDUPowerConnector",
+      "RedfishType": "Outlet",
+      "RedfishSubtype": "C13",
+      "OdataID": "/jaws/monitor/outlets/BA6",
+      "RedfishEndpointID": "x3000m0",
+      "Enabled": true,
+      "RedfishEndpointFQDN": "x3000m0",
+      "RedfishURL": "x3000m0/jaws/monitor/outlets/BA6",
+      "ComponentEndpointType": "ComponentEndpointOutlet",
+      "RedfishOutletInfo": {
+        "Name": "Link1_Outlet_6",
+        "Actions": {
+          "#Outlet.PowerControl": {
+            "PowerState@Redfish.AllowableValues": [
+              "On",
+              "Off"
+            ],
+            "target": "/jaws/control/outlets/BA6"
+          }
+        }
+      }
+    },
+    {
+      "ID": "x3000m0p1v7",
+      "Type": "CabinetPDUPowerConnector",
+      "RedfishType": "Outlet",
+      "RedfishSubtype": "C13",
+      "OdataID": "/jaws/monitor/outlets/BA7",
+      "RedfishEndpointID": "x3000m0",
+      "Enabled": true,
+      "RedfishEndpointFQDN": "x3000m0",
+      "RedfishURL": "x3000m0/jaws/monitor/outlets/BA7",
+      "ComponentEndpointType": "ComponentEndpointOutlet",
+      "RedfishOutletInfo": {
+        "Name": "Link1_Outlet_7",
+        "Actions": {
+          "#Outlet.PowerControl": {
+            "PowerState@Redfish.AllowableValues": [
+              "On",
+              "Off"
+            ],
+            "target": "/jaws/control/outlets/BA7"
+          }
+        }
+      }
+    },
+    {
+      "ID": "x3000m0p1v8",
+      "Type": "CabinetPDUPowerConnector",
+      "RedfishType": "Outlet",
+      "RedfishSubtype": "C13",
+      "OdataID": "/jaws/monitor/outlets/BA8",
+      "RedfishEndpointID": "x3000m0",
+      "Enabled": true,
+      "RedfishEndpointFQDN": "x3000m0",
+      "RedfishURL": "x3000m0/jaws/monitor/outlets/BA8",
+      "ComponentEndpointType": "ComponentEndpointOutlet",
+      "RedfishOutletInfo": {
+        "Name": "Link1_Outlet_8",
+        "Actions": {
+          "#Outlet.PowerControl": {
+            "PowerState@Redfish.AllowableValues": [
+              "On",
+              "Off"
+            ],
+            "target": "/jaws/control/outlets/BA8"
+          }
+        }
+      }
+    },
+    {
+      "ID": "x3000m0p1v9",
+      "Type": "CabinetPDUPowerConnector",
+      "RedfishType": "Outlet",
+      "RedfishSubtype": "C13",
+      "OdataID": "/jaws/monitor/outlets/BA9",
+      "RedfishEndpointID": "x3000m0",
+      "Enabled": true,
+      "RedfishEndpointFQDN": "x3000m0",
+      "RedfishURL": "x3000m0/jaws/monitor/outlets/BA9",
+      "ComponentEndpointType": "ComponentEndpointOutlet",
+      "RedfishOutletInfo": {
+        "Name": "Link1_Outlet_9",
+        "Actions": {
+          "#Outlet.PowerControl": {
+            "PowerState@Redfish.AllowableValues": [
+              "On",
+              "Off"
+            ],
+            "target": "/jaws/control/outlets/BA9"
+          }
+        }
+      }
+    },
+    {
+      "ID": "x3000m0p1v10",
+      "Type": "CabinetPDUPowerConnector",
+      "RedfishType": "Outlet",
+      "RedfishSubtype": "C13",
+      "OdataID": "/jaws/monitor/outlets/BA10",
+      "RedfishEndpointID": "x3000m0",
+      "Enabled": true,
+      "RedfishEndpointFQDN": "x3000m0",
+      "RedfishURL": "x3000m0/jaws/monitor/outlets/BA10",
+      "ComponentEndpointType": "ComponentEndpointOutlet",
+      "RedfishOutletInfo": {
+        "Name": "Link1_Outlet_10",
+        "Actions": {
+          "#Outlet.PowerControl": {
+            "PowerState@Redfish.AllowableValues": [
+              "On",
+              "Off"
+            ],
+            "target": "/jaws/control/outlets/BA10"
+          }
+        }
+      }
+    },
+    {
+      "ID": "x3000m0p1v11",
+      "Type": "CabinetPDUPowerConnector",
+      "RedfishType": "Outlet",
+      "RedfishSubtype": "C13",
+      "OdataID": "/jaws/monitor/outlets/BA11",
+      "RedfishEndpointID": "x3000m0",
+      "Enabled": true,
+      "RedfishEndpointFQDN": "x3000m0",
+      "RedfishURL": "x3000m0/jaws/monitor/outlets/BA11",
+      "ComponentEndpointType": "ComponentEndpointOutlet",
+      "RedfishOutletInfo": {
+        "Name": "Link1_Outlet_11",
+        "Actions": {
+          "#Outlet.PowerControl": {
+            "PowerState@Redfish.AllowableValues": [
+              "On",
+              "Off"
+            ],
+            "target": "/jaws/control/outlets/BA11"
+          }
+        }
+      }
+    },
+    {
+      "ID": "x3000m0p1v12",
+      "Type": "CabinetPDUPowerConnector",
+      "RedfishType": "Outlet",
+      "RedfishSubtype": "C13",
+      "OdataID": "/jaws/monitor/outlets/BA12",
+      "RedfishEndpointID": "x3000m0",
+      "Enabled": true,
+      "RedfishEndpointFQDN": "x3000m0",
+      "RedfishURL": "x3000m0/jaws/monitor/outlets/BA12",
+      "ComponentEndpointType": "ComponentEndpointOutlet",
+      "RedfishOutletInfo": {
+        "Name": "Link1_Outlet_12",
+        "Actions": {
+          "#Outlet.PowerControl": {
+            "PowerState@Redfish.AllowableValues": [
+              "On",
+              "Off"
+            ],
+            "target": "/jaws/control/outlets/BA12"
+          }
+        }
+      }
+    },
+    {
+      "ID": "x3000m0p1v13",
+      "Type": "CabinetPDUPowerConnector",
+      "RedfishType": "Outlet",
+      "RedfishSubtype": "Cx",
+      "OdataID": "/jaws/monitor/outlets/BA13",
+      "RedfishEndpointID": "x3000m0",
+      "Enabled": true,
+      "RedfishEndpointFQDN": "x3000m0",
+      "RedfishURL": "x3000m0/jaws/monitor/outlets/BA13",
+      "ComponentEndpointType": "ComponentEndpointOutlet",
+      "RedfishOutletInfo": {
+        "Name": "Link1_Outlet_13",
+        "Actions": {
+          "#Outlet.PowerControl": {
+            "PowerState@Redfish.AllowableValues": [
+              "On",
+              "Off"
+            ],
+            "target": "/jaws/control/outlets/BA13"
+          }
+        }
+      }
+    },
+    {
+      "ID": "x3000m0p1v14",
+      "Type": "CabinetPDUPowerConnector",
+      "RedfishType": "Outlet",
+      "RedfishSubtype": "Cx",
+      "OdataID": "/jaws/monitor/outlets/BA14",
+      "RedfishEndpointID": "x3000m0",
+      "Enabled": true,
+      "RedfishEndpointFQDN": "x3000m0",
+      "RedfishURL": "x3000m0/jaws/monitor/outlets/BA14",
+      "ComponentEndpointType": "ComponentEndpointOutlet",
+      "RedfishOutletInfo": {
+        "Name": "Link1_Outlet_14",
+        "Actions": {
+          "#Outlet.PowerControl": {
+            "PowerState@Redfish.AllowableValues": [
+              "On",
+              "Off"
+            ],
+            "target": "/jaws/control/outlets/BA14"
+          }
+        }
+      }
+    },
+    {
+      "ID": "x3000m0p1v15",
+      "Type": "CabinetPDUPowerConnector",
+      "RedfishType": "Outlet",
+      "RedfishSubtype": "Cx",
+      "OdataID": "/jaws/monitor/outlets/BA15",
+      "RedfishEndpointID": "x3000m0",
+      "Enabled": true,
+      "RedfishEndpointFQDN": "x3000m0",
+      "RedfishURL": "x3000m0/jaws/monitor/outlets/BA15",
+      "ComponentEndpointType": "ComponentEndpointOutlet",
+      "RedfishOutletInfo": {
+        "Name": "Link1_Outlet_15",
+        "Actions": {
+          "#Outlet.PowerControl": {
+            "PowerState@Redfish.AllowableValues": [
+              "On",
+              "Off"
+            ],
+            "target": "/jaws/control/outlets/BA15"
+          }
+        }
+      }
+    },
+    {
+      "ID": "x3000m0p1v16",
+      "Type": "CabinetPDUPowerConnector",
+      "RedfishType": "Outlet",
+      "RedfishSubtype": "Cx",
+      "OdataID": "/jaws/monitor/outlets/BA16",
+      "RedfishEndpointID": "x3000m0",
+      "Enabled": true,
+      "RedfishEndpointFQDN": "x3000m0",
+      "RedfishURL": "x3000m0/jaws/monitor/outlets/BA16",
+      "ComponentEndpointType": "ComponentEndpointOutlet",
+      "RedfishOutletInfo": {
+        "Name": "Link1_Outlet_16",
+        "Actions": {
+          "#Outlet.PowerControl": {
+            "PowerState@Redfish.AllowableValues": [
+              "On",
+              "Off"
+            ],
+            "target": "/jaws/control/outlets/BA16"
+          }
+        }
+      }
+    },
+    {
+      "ID": "x3000m0p1v17",
+      "Type": "CabinetPDUPowerConnector",
+      "RedfishType": "Outlet",
+      "RedfishSubtype": "Cx",
+      "OdataID": "/jaws/monitor/outlets/BA17",
+      "RedfishEndpointID": "x3000m0",
+      "Enabled": true,
+      "RedfishEndpointFQDN": "x3000m0",
+      "RedfishURL": "x3000m0/jaws/monitor/outlets/BA17",
+      "ComponentEndpointType": "ComponentEndpointOutlet",
+      "RedfishOutletInfo": {
+        "Name": "Link1_Outlet_17",
+        "Actions": {
+          "#Outlet.PowerControl": {
+            "PowerState@Redfish.AllowableValues": [
+              "On",
+              "Off"
+            ],
+            "target": "/jaws/control/outlets/BA17"
+          }
+        }
+      }
+    },
+    {
+      "ID": "x3000m0p1v18",
+      "Type": "CabinetPDUPowerConnector",
+      "RedfishType": "Outlet",
+      "RedfishSubtype": "Cx",
+      "OdataID": "/jaws/monitor/outlets/BA18",
+      "RedfishEndpointID": "x3000m0",
+      "Enabled": true,
+      "RedfishEndpointFQDN": "x3000m0",
+      "RedfishURL": "x3000m0/jaws/monitor/outlets/BA18",
+      "ComponentEndpointType": "ComponentEndpointOutlet",
+      "RedfishOutletInfo": {
+        "Name": "Link1_Outlet_18",
+        "Actions": {
+          "#Outlet.PowerControl": {
+            "PowerState@Redfish.AllowableValues": [
+              "On",
+              "Off"
+            ],
+            "target": "/jaws/control/outlets/BA18"
+          }
+        }
+      }
+    },
+    {
+      "ID": "x3000m0p1v19",
+      "Type": "CabinetPDUPowerConnector",
+      "RedfishType": "Outlet",
+      "RedfishSubtype": "C13",
+      "OdataID": "/jaws/monitor/outlets/BA19",
+      "RedfishEndpointID": "x3000m0",
+      "Enabled": true,
+      "RedfishEndpointFQDN": "x3000m0",
+      "RedfishURL": "x3000m0/jaws/monitor/outlets/BA19",
+      "ComponentEndpointType": "ComponentEndpointOutlet",
+      "RedfishOutletInfo": {
+        "Name": "Link1_Outlet_19",
+        "Actions": {
+          "#Outlet.PowerControl": {
+            "PowerState@Redfish.AllowableValues": [
+              "On",
+              "Off"
+            ],
+            "target": "/jaws/control/outlets/BA19"
+          }
+        }
+      }
+    },
+    {
+      "ID": "x3000m0p1v20",
+      "Type": "CabinetPDUPowerConnector",
+      "RedfishType": "Outlet",
+      "RedfishSubtype": "C13",
+      "OdataID": "/jaws/monitor/outlets/BA20",
+      "RedfishEndpointID": "x3000m0",
+      "Enabled": true,
+      "RedfishEndpointFQDN": "x3000m0",
+      "RedfishURL": "x3000m0/jaws/monitor/outlets/BA20",
+      "ComponentEndpointType": "ComponentEndpointOutlet",
+      "RedfishOutletInfo": {
+        "Name": "Link1_Outlet_20",
+        "Actions": {
+          "#Outlet.PowerControl": {
+            "PowerState@Redfish.AllowableValues": [
+              "On",
+              "Off"
+            ],
+            "target": "/jaws/control/outlets/BA20"
+          }
+        }
+      }
+    },
+    {
+      "ID": "x3000m0p1v21",
+      "Type": "CabinetPDUPowerConnector",
+      "RedfishType": "Outlet",
+      "RedfishSubtype": "C13",
+      "OdataID": "/jaws/monitor/outlets/BA21",
+      "RedfishEndpointID": "x3000m0",
+      "Enabled": true,
+      "RedfishEndpointFQDN": "x3000m0",
+      "RedfishURL": "x3000m0/jaws/monitor/outlets/BA21",
+      "ComponentEndpointType": "ComponentEndpointOutlet",
+      "RedfishOutletInfo": {
+        "Name": "Link1_Outlet_21",
+        "Actions": {
+          "#Outlet.PowerControl": {
+            "PowerState@Redfish.AllowableValues": [
+              "On",
+              "Off"
+            ],
+            "target": "/jaws/control/outlets/BA21"
+          }
+        }
+      }
+    },
+    {
+      "ID": "x3000m0p1v22",
+      "Type": "CabinetPDUPowerConnector",
+      "RedfishType": "Outlet",
+      "RedfishSubtype": "C13",
+      "OdataID": "/jaws/monitor/outlets/BA22",
+      "RedfishEndpointID": "x3000m0",
+      "Enabled": true,
+      "RedfishEndpointFQDN": "x3000m0",
+      "RedfishURL": "x3000m0/jaws/monitor/outlets/BA22",
+      "ComponentEndpointType": "ComponentEndpointOutlet",
+      "RedfishOutletInfo": {
+        "Name": "Link1_Outlet_22",
+        "Actions": {
+          "#Outlet.PowerControl": {
+            "PowerState@Redfish.AllowableValues": [
+              "On",
+              "Off"
+            ],
+            "target": "/jaws/control/outlets/BA22"
+          }
+        }
+      }
+    },
+    {
+      "ID": "x3000m0p1v23",
+      "Type": "CabinetPDUPowerConnector",
+      "RedfishType": "Outlet",
+      "RedfishSubtype": "C13",
+      "OdataID": "/jaws/monitor/outlets/BA23",
+      "RedfishEndpointID": "x3000m0",
+      "Enabled": true,
+      "RedfishEndpointFQDN": "x3000m0",
+      "RedfishURL": "x3000m0/jaws/monitor/outlets/BA23",
+      "ComponentEndpointType": "ComponentEndpointOutlet",
+      "RedfishOutletInfo": {
+        "Name": "Link1_Outlet_23",
+        "Actions": {
+          "#Outlet.PowerControl": {
+            "PowerState@Redfish.AllowableValues": [
+              "On",
+              "Off"
+            ],
+            "target": "/jaws/control/outlets/BA23"
+          }
+        }
+      }
+    },
+    {
+      "ID": "x3000m0p1v24",
+      "Type": "CabinetPDUPowerConnector",
+      "RedfishType": "Outlet",
+      "RedfishSubtype": "C13",
+      "OdataID": "/jaws/monitor/outlets/BA24",
+      "RedfishEndpointID": "x3000m0",
+      "Enabled": true,
+      "RedfishEndpointFQDN": "x3000m0",
+      "RedfishURL": "x3000m0/jaws/monitor/outlets/BA24",
+      "ComponentEndpointType": "ComponentEndpointOutlet",
+      "RedfishOutletInfo": {
+        "Name": "Link1_Outlet_24",
+        "Actions": {
+          "#Outlet.PowerControl": {
+            "PowerState@Redfish.AllowableValues": [
+              "On",
+              "Off"
+            ],
+            "target": "/jaws/control/outlets/BA24"
+          }
+        }
+      }
+    },
+    {
+      "ID": "x3000m0p1v25",
+      "Type": "CabinetPDUPowerConnector",
+      "RedfishType": "Outlet",
+      "RedfishSubtype": "C13",
+      "OdataID": "/jaws/monitor/outlets/BA25",
+      "RedfishEndpointID": "x3000m0",
+      "Enabled": true,
+      "RedfishEndpointFQDN": "x3000m0",
+      "RedfishURL": "x3000m0/jaws/monitor/outlets/BA25",
+      "ComponentEndpointType": "ComponentEndpointOutlet",
+      "RedfishOutletInfo": {
+        "Name": "Link1_Outlet_25",
+        "Actions": {
+          "#Outlet.PowerControl": {
+            "PowerState@Redfish.AllowableValues": [
+              "On",
+              "Off"
+            ],
+            "target": "/jaws/control/outlets/BA25"
+          }
+        }
+      }
+    },
+    {
+      "ID": "x3000m0p1v26",
+      "Type": "CabinetPDUPowerConnector",
+      "RedfishType": "Outlet",
+      "RedfishSubtype": "C13",
+      "OdataID": "/jaws/monitor/outlets/BA26",
+      "RedfishEndpointID": "x3000m0",
+      "Enabled": true,
+      "RedfishEndpointFQDN": "x3000m0",
+      "RedfishURL": "x3000m0/jaws/monitor/outlets/BA26",
+      "ComponentEndpointType": "ComponentEndpointOutlet",
+      "RedfishOutletInfo": {
+        "Name": "Link1_Outlet_26",
+        "Actions": {
+          "#Outlet.PowerControl": {
+            "PowerState@Redfish.AllowableValues": [
+              "On",
+              "Off"
+            ],
+            "target": "/jaws/control/outlets/BA26"
+          }
+        }
+      }
+    },
+    {
+      "ID": "x3000m0p1v27",
+      "Type": "CabinetPDUPowerConnector",
+      "RedfishType": "Outlet",
+      "RedfishSubtype": "C13",
+      "OdataID": "/jaws/monitor/outlets/BA27",
+      "RedfishEndpointID": "x3000m0",
+      "Enabled": true,
+      "RedfishEndpointFQDN": "x3000m0",
+      "RedfishURL": "x3000m0/jaws/monitor/outlets/BA27",
+      "ComponentEndpointType": "ComponentEndpointOutlet",
+      "RedfishOutletInfo": {
+        "Name": "Link1_Outlet_27",
+        "Actions": {
+          "#Outlet.PowerControl": {
+            "PowerState@Redfish.AllowableValues": [
+              "On",
+              "Off"
+            ],
+            "target": "/jaws/control/outlets/BA27"
+          }
+        }
+      }
+    },
+    {
+      "ID": "x3000m0p1v28",
+      "Type": "CabinetPDUPowerConnector",
+      "RedfishType": "Outlet",
+      "RedfishSubtype": "C13",
+      "OdataID": "/jaws/monitor/outlets/BA28",
+      "RedfishEndpointID": "x3000m0",
+      "Enabled": true,
+      "RedfishEndpointFQDN": "x3000m0",
+      "RedfishURL": "x3000m0/jaws/monitor/outlets/BA28",
+      "ComponentEndpointType": "ComponentEndpointOutlet",
+      "RedfishOutletInfo": {
+        "Name": "Link1_Outlet_28",
+        "Actions": {
+          "#Outlet.PowerControl": {
+            "PowerState@Redfish.AllowableValues": [
+              "On",
+              "Off"
+            ],
+            "target": "/jaws/control/outlets/BA28"
+          }
+        }
+      }
+    },
+    {
+      "ID": "x3000m0p1v29",
+      "Type": "CabinetPDUPowerConnector",
+      "RedfishType": "Outlet",
+      "RedfishSubtype": "C13",
+      "OdataID": "/jaws/monitor/outlets/BA29",
+      "RedfishEndpointID": "x3000m0",
+      "Enabled": true,
+      "RedfishEndpointFQDN": "x3000m0",
+      "RedfishURL": "x3000m0/jaws/monitor/outlets/BA29",
+      "ComponentEndpointType": "ComponentEndpointOutlet",
+      "RedfishOutletInfo": {
+        "Name": "Link1_Outlet_29",
+        "Actions": {
+          "#Outlet.PowerControl": {
+            "PowerState@Redfish.AllowableValues": [
+              "On",
+              "Off"
+            ],
+            "target": "/jaws/control/outlets/BA29"
+          }
+        }
+      }
+    },
+    {
+      "ID": "x3000m0p1v30",
+      "Type": "CabinetPDUPowerConnector",
+      "RedfishType": "Outlet",
+      "RedfishSubtype": "C13",
+      "OdataID": "/jaws/monitor/outlets/BA30",
+      "RedfishEndpointID": "x3000m0",
+      "Enabled": true,
+      "RedfishEndpointFQDN": "x3000m0",
+      "RedfishURL": "x3000m0/jaws/monitor/outlets/BA30",
+      "ComponentEndpointType": "ComponentEndpointOutlet",
+      "RedfishOutletInfo": {
+        "Name": "Link1_Outlet_30",
+        "Actions": {
+          "#Outlet.PowerControl": {
+            "PowerState@Redfish.AllowableValues": [
+              "On",
+              "Off"
+            ],
+            "target": "/jaws/control/outlets/BA30"
+          }
+        }
+      }
+    },
+    {
+      "ID": "x3000m0p1v31",
+      "Type": "CabinetPDUPowerConnector",
+      "RedfishType": "Outlet",
+      "RedfishSubtype": "Cx",
+      "OdataID": "/jaws/monitor/outlets/BA31",
+      "RedfishEndpointID": "x3000m0",
+      "Enabled": true,
+      "RedfishEndpointFQDN": "x3000m0",
+      "RedfishURL": "x3000m0/jaws/monitor/outlets/BA31",
+      "ComponentEndpointType": "ComponentEndpointOutlet",
+      "RedfishOutletInfo": {
+        "Name": "Link1_Outlet_31",
+        "Actions": {
+          "#Outlet.PowerControl": {
+            "PowerState@Redfish.AllowableValues": [
+              "On",
+              "Off"
+            ],
+            "target": "/jaws/control/outlets/BA31"
+          }
+        }
+      }
+    },
+    {
+      "ID": "x3000m0p1v32",
+      "Type": "CabinetPDUPowerConnector",
+      "RedfishType": "Outlet",
+      "RedfishSubtype": "Cx",
+      "OdataID": "/jaws/monitor/outlets/BA32",
+      "RedfishEndpointID": "x3000m0",
+      "Enabled": true,
+      "RedfishEndpointFQDN": "x3000m0",
+      "RedfishURL": "x3000m0/jaws/monitor/outlets/BA32",
+      "ComponentEndpointType": "ComponentEndpointOutlet",
+      "RedfishOutletInfo": {
+        "Name": "Link1_Outlet_32",
+        "Actions": {
+          "#Outlet.PowerControl": {
+            "PowerState@Redfish.AllowableValues": [
+              "On",
+              "Off"
+            ],
+            "target": "/jaws/control/outlets/BA32"
+          }
+        }
+      }
+    },
+    {
+      "ID": "x3000m0p1v33",
+      "Type": "CabinetPDUPowerConnector",
+      "RedfishType": "Outlet",
+      "RedfishSubtype": "Cx",
+      "OdataID": "/jaws/monitor/outlets/BA33",
+      "RedfishEndpointID": "x3000m0",
+      "Enabled": true,
+      "RedfishEndpointFQDN": "x3000m0",
+      "RedfishURL": "x3000m0/jaws/monitor/outlets/BA33",
+      "ComponentEndpointType": "ComponentEndpointOutlet",
+      "RedfishOutletInfo": {
+        "Name": "Link1_Outlet_33",
+        "Actions": {
+          "#Outlet.PowerControl": {
+            "PowerState@Redfish.AllowableValues": [
+              "On",
+              "Off"
+            ],
+            "target": "/jaws/control/outlets/BA33"
+          }
+        }
+      }
+    },
+    {
+      "ID": "x3000m0p1v34",
+      "Type": "CabinetPDUPowerConnector",
+      "RedfishType": "Outlet",
+      "RedfishSubtype": "Cx",
+      "OdataID": "/jaws/monitor/outlets/BA34",
+      "RedfishEndpointID": "x3000m0",
+      "Enabled": true,
+      "RedfishEndpointFQDN": "x3000m0",
+      "RedfishURL": "x3000m0/jaws/monitor/outlets/BA34",
+      "ComponentEndpointType": "ComponentEndpointOutlet",
+      "RedfishOutletInfo": {
+        "Name": "Link1_Outlet_34",
+        "Actions": {
+          "#Outlet.PowerControl": {
+            "PowerState@Redfish.AllowableValues": [
+              "On",
+              "Off"
+            ],
+            "target": "/jaws/control/outlets/BA34"
+          }
+        }
+      }
+    },
+    {
+      "ID": "x3000m0p1v35",
+      "Type": "CabinetPDUPowerConnector",
+      "RedfishType": "Outlet",
+      "RedfishSubtype": "Cx",
+      "OdataID": "/jaws/monitor/outlets/BA35",
+      "RedfishEndpointID": "x3000m0",
+      "Enabled": true,
+      "RedfishEndpointFQDN": "x3000m0",
+      "RedfishURL": "x3000m0/jaws/monitor/outlets/BA35",
+      "ComponentEndpointType": "ComponentEndpointOutlet",
+      "RedfishOutletInfo": {
+        "Name": "Link1_Outlet_35",
+        "Actions": {
+          "#Outlet.PowerControl": {
+            "PowerState@Redfish.AllowableValues": [
+              "On",
+              "Off"
+            ],
+            "target": "/jaws/control/outlets/BA35"
+          }
+        }
+      }
+    },
+    {
+      "ID": "x3000m0p1v36",
+      "Type": "CabinetPDUPowerConnector",
+      "RedfishType": "Outlet",
+      "RedfishSubtype": "Cx",
+      "OdataID": "/jaws/monitor/outlets/BA36",
+      "RedfishEndpointID": "x3000m0",
+      "Enabled": true,
+      "RedfishEndpointFQDN": "x3000m0",
+      "RedfishURL": "x3000m0/jaws/monitor/outlets/BA36",
+      "ComponentEndpointType": "ComponentEndpointOutlet",
+      "RedfishOutletInfo": {
+        "Name": "Link1_Outlet_36",
+        "Actions": {
+          "#Outlet.PowerControl": {
+            "PowerState@Redfish.AllowableValues": [
+              "On",
+              "Off"
+            ],
+            "target": "/jaws/control/outlets/BA36"
+          }
+        }
+      }
+    }
+  ]
+}
