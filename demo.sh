@@ -4,7 +4,7 @@
 run_and_wait() {
     local cmd_string="$1"
     echo ""
-    read -p "Press [enter] to run: ${cmd_string}"
+    read -p "${cmd_string}"
     eval "${cmd_string}"
 }
 
@@ -67,6 +67,6 @@ read -p "Press [enter] to run: ${cmd_to_run}"
 TRANSITION_ID=$(eval "${cmd_to_run}")
 echo "  - Transition ID: ${TRANSITION_ID}"
 
-run_and_wait "sleep 2"
+read -p "Let's wait a bit for the transition to complete..."
 run_and_wait "curl -sS -X GET http://localhost:28007/v1/transitions/${TRANSITION_ID} | jq '.'"
 
