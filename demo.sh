@@ -12,7 +12,7 @@ BMC_PASS="initial0"
 BMC_XNAME="x1000c1s7b0"
 
 PDU_XNAME="x3000m0"
-PDU_OUTLET_XNAME="x3000m0p0v1"
+PDU_OUTLET_XNAME="x3000m0p0v17"
 
 echo "STEP 1: Starting OpenCHAMI services..."
 bash stop.sh
