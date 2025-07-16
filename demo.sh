@@ -63,7 +63,7 @@ run_and_wait "curl -sS -X GET http://localhost:28007/v1/power-status?xname=${PDU
 echo "\n🚀 STEP 7: Demonstrating power control on a BMC..."
 echo "  - Sending 'Off' command to ${BMC_XNAME}n0..."
 cmd_to_run="curl -sSi -X POST -H \"Content-Type: application/json\" -d '{\"operation\": \"Off\", \"location\": [{\"xname\": \"${BMC_XNAME}n0\"}]}' http://localhost:28007/v1/transitions | grep -i 'Location:' | awk -F'/' '{print \$NF}' | tr -d '\r'"
-read -p "${cmd_to_run}"
+read -p "Press [enter] to run: ${cmd_to_run}"
 TRANSITION_ID=$(eval "${cmd_to_run}")
 echo "  - Transition ID: ${TRANSITION_ID}"
 
@@ -74,7 +74,7 @@ run_and_wait "curl -sS -X GET http://localhost:28007/v1/transitions/${TRANSITION
 echo "\n🚀 STEP 8: Powering the node back on..."
 echo "  - Sending 'On' command to ${BMC_XNAME}n0..."
 cmd_to_run_on="curl -sSi -X POST -H \"Content-Type: application/json\" -d '{\"operation\": \"On\", \"location\": [{\"xname\": \"${BMC_XNAME}n0\"}]}' http://localhost:28007/v1/transitions | grep -i 'Location:' | awk -F'/' '{print \$NF}' | tr -d '\r'"
-read -p "${cmd_to_run_on}"
+read -p "Press [enter] to run: ${cmd_to_run_on}"
 TRANSITION_ID_ON=$(eval "${cmd_to_run_on}")
 echo "  - Transition ID: ${TRANSITION_ID_ON}"
 
@@ -85,3 +85,26 @@ echo "  - Verifying final power state..."
 run_and_wait "curl -sS -X GET http://localhost:28007/v1/power-status?xname=${BMC_XNAME}n0 | jq '.'"
 
 
+echo "\n🚀 STEP 9: Demonstrating power control on a PDU Outlet..."
+echo "  - Sending 'Off' command to ${PDU_OUTLET_XNAME}..."
+cmd_pdu_off="curl -sSi -X POST -H \"Content-Type: application/json\" -d '{\"operation\": \"Off\", \"location\": [{\"xname\": \"${PDU_OUTLET_XNAME}\"}]}' http://localhost:28007/v1/transitions | grep -i 'Location:' | awk -F'/' '{print \$NF}' | tr -d '\r'"
+read -p "Press [enter] to run: ${cmd_pdu_off}"
+TRANSITION_ID_PDU_OFF=$(eval "${cmd_pdu_off}")
+echo "  - Transition ID: ${TRANSITION_ID_PDU_OFF}"
+
+read -p "Let's wait a bit for the transition to complete..."
+run_and_wait "curl -sS -X GET http://localhost:28007/v1/transitions/${TRANSITION_ID_PDU_OFF} | jq '.'"
+
+
+echo "\n🚀 STEP 10: Powering the PDU Outlet back on..."
+echo "  - Sending 'On' command to ${PDU_OUTLET_XNAME}..."
+cmd_pdu_on="curl -sSi -X POST -H \"Content-Type: application/json\" -d '{\"operation\": \"On\", \"location\": [{\"xname\": \"${PDU_OUTLET_XNAME}\"}]}' http://localhost:28007/v1/transitions | grep -i 'Location:' | awk -F'/' '{print \$NF}' | tr -d '\r'"
+read -p "Press [enter] to run: ${cmd_pdu_on}"
+TRANSITION_ID_PDU_ON=$(eval "${cmd_pdu_on}")
+echo "  - Transition ID: ${TRANSITION_ID_PDU_ON}"
+
+read -p "Let's wait a bit for the transition to complete..."
+run_and_wait "curl -sS -X GET http://localhost:28007/v1/transitions/${TRANSITION_ID_PDU_ON} | jq '.'"
+
+echo "  - Verifying final power state..."
+run_and_wait "curl -sS -X GET http://localhost:28007/v1/power-status?xname=${PDU_OUTLET_XNAME} | jq '.'"
