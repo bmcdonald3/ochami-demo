@@ -70,3 +70,18 @@ echo "  - Transition ID: ${TRANSITION_ID}"
 read -p "Let's wait a bit for the transition to complete..."
 run_and_wait "curl -sS -X GET http://localhost:28007/v1/transitions/${TRANSITION_ID} | jq '.'"
 
+
+echo "\n🚀 STEP 8: Powering the node back on..."
+echo "  - Sending 'On' command to ${BMC_XNAME}n0..."
+cmd_to_run_on="curl -sSi -X POST -H \"Content-Type: application/json\" -d '{\"operation\": \"On\", \"location\": [{\"xname\": \"${BMC_XNAME}n0\"}]}' http://localhost:28007/v1/transitions | grep -i 'Location:' | awk -F'/' '{print \$NF}' | tr -d '\r'"
+read -p "Press [enter] to run: ${cmd_to_run_on}"
+TRANSITION_ID_ON=$(eval "${cmd_to_run_on}")
+echo "  - Transition ID: ${TRANSITION_ID_ON}"
+
+read -p "Let's wait a bit for the transition to complete..."
+run_and_wait "curl -sS -X GET http://localhost:28007/v1/transitions/${TRANSITION_ID_ON} | jq '.'"
+
+echo "  - Verifying final power state..."
+run_and_wait "curl -sS -X GET http://localhost:28007/v1/power-status?xname=${BMC_XNAME}n0 | jq '.'"
+
+
