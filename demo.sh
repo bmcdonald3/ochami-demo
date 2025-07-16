@@ -1,6 +1,5 @@
 #!/bin/bash
 
-# Helper function to print a command, wait for Enter, and then execute it
 run_and_wait() {
     local cmd_string="$1"
     echo ""
