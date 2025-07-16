@@ -23,6 +23,7 @@ services:
       CRAY_VAULT_AUTH_PATH: auth/token/create
       VAULT_TOKEN: hms
       LOG_LEVEL: DEBUG
+      PCS_PDU_TUNNEL_MAP: "x3000m0=https://localhost:8445"
     volumes:
       - ./keys:/etc/keys
     ports:

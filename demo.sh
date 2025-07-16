@@ -56,7 +56,7 @@ read -p "Press [Enter] to continue..."
 
 echo "\n🚀 STEP 7: Demonstrating power control on a BMC..."
 echo "  - Sending 'Off' command to ${BMC_XNAME}n0..."
-TRANSITION_ID=$(curl -sS -X POST -H "Content-Type: application/json" -d "{\"operation\": \"Off\", \"location\": [{\"xname\": \"${BMC_XNAME}n0\"}]}" http://localhost:28007/v1/transitions | jq -r '.transition_id')
+TRANSITION_ID=$(curl -sSi -X POST -H "Content-Type: application/json" -d "{\"operation\": \"Off\", \"location\": [{\"xname\": \"${BMC_XNAME}n0\"}]}" http://localhost:28007/v1/transitions | grep -i 'Location:' | awk -F'/' '{print $NF}' | tr -d '\r')
 echo "  - Transition ID: ${TRANSITION_ID}"
 sleep 2
 curl -sS -X GET http://localhost:28007/v1/transitions/${TRANSITION_ID} | jq '.'
