@@ -21,7 +21,7 @@ BMC_XNAME="x1000c1s7b0"
 PDU_XNAME="x3000m0"
 PDU_OUTLET_XNAME="x3000m0p0v17"
 
-cho "STEP 1: Starting OpenCHAMI services..."
+echo "STEP 1: Starting OpenCHAMI services..."
 read -p "Do you want to stop and restart the services? (y/n) " RESTART_CHOICE
 if [[ "${RESTART_CHOICE}" =~ ^[Yy]$ ]]; then
     bash stop.sh
