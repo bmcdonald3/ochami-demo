@@ -68,6 +68,7 @@ smd_populate() {
 
 main() {
 	start_service
+	docker compose wait vault
 	generate_file
 	vault_configure_jwt
 	vault_create_keystore
