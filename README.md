@@ -383,16 +383,31 @@ curl -sS -X GET http://localhost:28007/v1/power-status?xname=x1000c1s7b0n0 | jq 
 curl -sS -X GET http://localhost:28007/v1/power-status?xname=x3000m0p0v17 | jq '.'
 ```
 ```json
-TODO
+{
+  "status": [
+    {
+      "xname": "x3000m0p0v17",
+      "powerState": "on",
+      "managementState": "available",
+      "error": "",
+      "supportedPowerTransitions": [
+        "On",
+        "Soft-Off",
+        "Off",
+        "Init",
+        "Hard-Restart",
+        "Soft-Restart"
+      ],
+      "lastUpdated": "2025-07-21T21:08:44.403327907Z"
+    }
+  ]
+}
 ```
 
 ## Query BMC power control on and off with PCS 
 ```bash
 curl -sS -X POST -H "Content-Type: application/json" -d '{"operation": "Off", "location": [{"xname": "x1000c1s7b0n0"}]}' http://localhost:28007/v1/transitions
 # Transition ID: e9450e52-a8ef-44d3-b9aa-5a491a7bd6a2
-```
-```json
-TODO
 ```
 ```bash
 curl -sS -X GET http://localhost:28007/v1/power-status?xname=x1000c1s7b0n0 | jq '.'
@@ -505,7 +520,30 @@ curl -sS -X GET http://localhost:28007/v1/transitions/b83dac77-8543-4e99-8386-53
   ]
 }
 ```
-TODO: ADD STATUS CHECK ON THIS PDU TO MAKE SURE IT'S OFF
+```bash
+curl -sS -X GET http://localhost:28007/v1/power-status?xname=x3000m0p0v17 | jq '.'
+```
+```json
+{
+  "status": [
+    {
+      "xname": "x3000m0p0v17",
+      "powerState": "off",
+      "managementState": "available",
+      "error": "",
+      "supportedPowerTransitions": [
+        "On",
+        "Soft-Off",
+        "Off",
+        "Init",
+        "Hard-Restart",
+        "Soft-Restart"
+      ],
+      "lastUpdated": "2025-07-21T21:15:18.849195805Z"
+    }
+  ]
+}
+```
 ```bash
 curl -sS -X POST -H "Content-Type: application/json" -d '{"operation": "On", "location": [{"xname": "x3000m0p0v17"}]}' http://localhost:28007/v1/transitions
 # Transition ID: 0f7bdd6b-df5e-48b8-a554-aa6ca110098e
