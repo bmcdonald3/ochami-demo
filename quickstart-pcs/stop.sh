@@ -5,7 +5,6 @@ docker compose \
 	-f haproxy-api-gateway.yml \
 	-f openchami-svcs.yml \
 	-f autocert.yml \
-	-f coredhcp.yml \
 	-f pcs.yml \
 	-f etcd.yml \
 	-f configurator.yml down
