@@ -45,7 +45,7 @@ run_and_wait "curl -sS http://localhost:27779/hsm/v2/Inventory/RedfishEndpoints 
 run_and_wait "curl -sS \"http://localhost:27779/hsm/v2/Inventory/ComponentEndpoints\" | jq"
 
 echo -e "\n STEP 4: Let's collect the local BMC inventory..."
-run_and_wait "magellan collect \"https://${BMC_IP}\" --username \"${BMC_USER}\" --password \"${BMC_PASS}\" -v | magellan send http://localhost:27779"
+run_and_wait "magellan collect \"https://${BMC_IP}\" --username \"${BMC_USER}\" --password \"${BMC_PASS}\" -v | magellan send http://localhost:27779 2> /dev/null"
 
 echo -e "\n STEP 5: Let's make sure that both BMCs and PDUs are in SMD..."
 run_and_wait "curl -sS http://localhost:27779/hsm/v2/Inventory/RedfishEndpoints | jq"
