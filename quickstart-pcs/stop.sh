@@ -7,9 +7,7 @@ docker compose \
 	-f autocert.yml \
 	-f coredhcp.yml \
 	-f pcs.yml \
-	-f vault.yml \
 	-f etcd.yml \
-	-f rfe.yml \
 	-f configurator.yml down
 
 docker volume rm $(docker volume ls -q)
