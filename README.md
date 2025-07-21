@@ -3,7 +3,7 @@
 ## Scan for PDUs
 
 ```bash
-./magellan-linux scan --subnet 10.254.1.0/17 -F json --include=pdus
+magellan scan --subnet 10.254.1.0/17 -F json --include=pdus
 ```
 ```json
 [
@@ -60,7 +60,7 @@
 
 ## Collect PDU Inventory
 ```bash
-./magellan-linux collect pdu x3000m0 --username admn --password admn -v
+magellan collect pdu x3000m0 --username admn --password admn -v
 ```
 ```json
 [
