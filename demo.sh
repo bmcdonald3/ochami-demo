@@ -94,6 +94,8 @@ echo "  - Transition ID: ${TRANSITION_ID_PDU_OFF}"
 read -p "Let's wait a bit for the transition to get started..."
 run_and_wait "curl -sS -X GET http://localhost:28007/v1/transitions/${TRANSITION_ID_PDU_OFF} | jq '.'"
 
+echo "  - Let's check the power status..."
+run_and_wait "curl -sS -X GET http://localhost:28007/v1/power-status?xname=${PDU_OUTLET_XNAME} | jq '.'"
 
 echo -e "\n STEP 10: Let's power the PDU Outlet back on..."
 echo "  - Sending 'On' command to ${PDU_OUTLET_XNAME}..."
