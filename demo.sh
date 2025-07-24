@@ -25,16 +25,15 @@ echo "STEP 1: Starting OpenCHAMI services..."
 read -p "Do you want to stop and restart the services? (y/n) " RESTART_CHOICE
 if [[ "${RESTART_CHOICE}" =~ ^[Yy]$ ]]; then
     bash stop.sh
-    bash run.sh    
-
-    docker exec -e VAULT_TOKEN=hms -e VAULT_ADDR=http://localhost:8200 vault sh -c 'vault kv put secret/hms-creds/x3000m0 username=admn password=admn'
-    docker exec -e VAULT_TOKEN=hms -e VAULT_ADDR=http://localhost:8200 vault sh -c 'vault kv put secret/hms-creds/x1000c1s7b0 username=root password=initial0'
-    docker exec -e VAULT_TOKEN=hms -e VAULT_ADDR=http://localhost:8200 vault sh -c 'vault kv put secret/hms-creds/x1000c1s7b1 username=root password=initial0'
-    docker exec -e VAULT_TOKEN=hms -e VAULT_ADDR=http://localhost:8200 vault sh -c 'vault kv put secret/hms-creds/x1000c1s7b2 username=root password=initial0'
+    bash run.sh
 else
     echo "Skipping service restart."
 fi
 
+docker exec -e VAULT_TOKEN=hms -e VAULT_ADDR=http://localhost:8200 vault sh -c 'vault kv put secret/hms-creds/x3000m0 username=admn password=admn'
+docker exec -e VAULT_TOKEN=hms -e VAULT_ADDR=http://localhost:8200 vault sh -c 'vault kv put secret/hms-creds/x1000c1s7b0 username=root password=initial0'
+docker exec -e VAULT_TOKEN=hms -e VAULT_ADDR=http://localhost:8200 vault sh -c 'vault kv put secret/hms-creds/x1000c1s7b1 username=root password=initial0'
+docker exec -e VAULT_TOKEN=hms -e VAULT_ADDR=http://localhost:8200 vault sh -c 'vault kv put secret/hms-creds/x1000c1s7b2 username=root password=initial0'
 
 echo -e "\n STEP 2: We need the PDU inventory from remote system..."
 run_and_wait "scp \"${GAMORA_HOST}:${REMOTE_PDU_FILE_PATH}\" \"./${LOCAL_PDU_FILE}\""
